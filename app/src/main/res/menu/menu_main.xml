@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="https://schemas.android.com/tools"
+    tools:contexts="com.example.gilad.firstapp.MainActivity">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_red"
+              android:orderInCategory="1"
+            android:title="@string/red_title"
+            app:showAsAction="never"
+       />
+        <item android:id="@+id/menu_blue"
+            android:orderInCategory="1"
+            android:title="@string/blue_title"
+            app:showAsAction="never"
+            />
+        <item android:id="@+id/menu_green"
+            android:orderInCategory="1"
+            android:title="@string/green_title"
+            app:showAsAction="never"
+            />
+
+        <item android:id="@+id/menu_settings"
+            android:orderInCategory="4"
+            android:title="setting"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            app:showAsAction="always"
+            />
+    </group>
+
+</menu>
