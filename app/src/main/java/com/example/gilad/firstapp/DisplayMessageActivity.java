@@ -3,6 +3,7 @@ package com.example.gilad.firstapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatDialog;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
