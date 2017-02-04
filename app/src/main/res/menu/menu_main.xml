@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="https://schemas.android.com/tools"
-    tools:contexts="com.example.gilad.firstapp.MainActivity">
+    tools:contexts="com.example.gilad.firstapp.BaseActivity">
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/menu_red"
